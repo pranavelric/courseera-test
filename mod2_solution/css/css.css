@@ -40,12 +40,13 @@ h2
 	position: absolute;
 	top:0;
 	right: 0;
+    margin: 0px;
 	border: 1px solid black;
 	font-weight: 600;
 	text-align: center;
 	padding:3px 30px;
 	font-size: 1.5em;
-	width: 150px;
+	width: 45%;
 }
 p
 {
