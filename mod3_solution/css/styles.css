@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+#header-nav {
+  background-color: lightgray;
+  border-radius: 0;
+  border: 2px solid black;
+  width: 100%;
+margin: 0;
+    padding: 0;
+    
+    
+}
+
+.navbar-brand {
+  padding-top: 5px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: cursive;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: .75;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 2px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#nav-list a{
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.9em;
+    font-family: cursive;
+}
+#ch{
+    text-align: center;
+    font-size: 1.5em;
+}
+#sh{
+    text-align: center;
+    font-size: 1.5em;
+}
+#be{
+    text-align: center;
+    font-size: 1.5em;
+}
+#st, #nd, #rd{
+  border: 1px solid black;
+	padding: 0 15px 10px 15px;
+	height: 180px;
+	overflow: hidden;
+	font-weight: 800;
+    margin: 10px 10px;
+    
+}
+section{
+    position: relative;
+	background-color: lightgray;
+}
+
+.row{
+    margin: 0 20px 0 1px;
+}
+@media (min-width: 992px) {
+
+		
+  .col-lg-4 
+  {
+    width: 31%;
+    float: left;
+      
+
+  }
+  
+	
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	..col-md-6, .col-md-12
+	{
+		float:left;
+	}
+	.col-md-6
+	{
+		width: 50%;
+     
+
+	}
+	.col-md-12
+	{
+		width: 100%;
+		
+	}
+
+}
+
+
+
+
+
+@media (max-width: 767px) {
+
+		.col-sm-12
+	{
+		float: left;
+		width: 100%;
+	}
+
+
+}
