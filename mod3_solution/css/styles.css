@@ -67,24 +67,31 @@ h1{
 #st, #nd, #rd{
   border: 1px solid black;
 	padding: 0 15px 10px 15px;
-	height: 180px;
+	height: 480px;
 	overflow: hidden;
 	font-weight: 800;
-    margin: 10px 10px;
+    margin: 20px 10px;
     
 }
 section{
     position: relative;
+    display: flex;
+    flex-direction: column;
+
 	background-color: lightgray;
 }
 
 .row{
     margin: 0 20px 0 1px;
+    
 }
+
+
+
 @media (min-width: 992px) {
 
 		
-  .col-lg-4 
+  .col-md-4 
   {
     width: 31%;
     float: left;
@@ -98,19 +105,18 @@ section{
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-	..col-md-6, .col-md-12
+	.col-sm-6, .col-sm-12
 	{
 		float:left;
 	}
-	.col-md-6
+	.col-sm-6
 	{
-		width: 50%;
-     
+		width: 47%;
 
 	}
-	.col-md-12
+	.col-sm-12
 	{
-		width: 100%;
+		width: 97%;
 		
 	}
 
@@ -122,7 +128,7 @@ section{
 
 @media (max-width: 767px) {
 
-		.col-sm-12
+		.col-xs-12
 	{
 		float: left;
 		width: 100%;
@@ -130,3 +136,4 @@ section{
 
 
 }
+
